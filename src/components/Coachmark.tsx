@@ -148,6 +148,7 @@ export default class Coachmark extends Component<CoachmarkProps, CoachmarkState>
           x={this.state.childStyle.left + this.state.childStyle.width / 2}
           position={this.state.position}
           message={this.props.message!}
+          buttonText={this.props.message!}
           renderArrow={this.props.renderArrow}
           renderContent={this.props.renderContent}
         />

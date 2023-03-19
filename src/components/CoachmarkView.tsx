@@ -13,7 +13,7 @@ export default class CoachmarkView extends Component<CoachmarkViewProps> {
     if (this.props.renderContent) {
       return this.props.renderContent();
     }
-    return <CoachmarkContent message={this.props.message} />;
+    return <CoachmarkContent message={this.props.message} buttonText={this.props.buttonText} />;
   }
 
   renderCoachmarkArrow() {

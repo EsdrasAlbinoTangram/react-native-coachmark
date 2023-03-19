@@ -22,11 +22,16 @@ export default class CoachmarkContent extends Component<CoachmarkContentProps> {
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 6,
+    borderRadius: 10,
     marginHorizontal: 16,
+    paddingVertical: 15,
     backgroundColor: '#FFF',
-    flexDirection: 'row',
+    flexDirection: 'column',
     overflow: 'hidden',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '90%',
+    height: 150,
   },
   message: {
     paddingHorizontal: 8,
@@ -35,19 +40,23 @@ const styles = StyleSheet.create({
   },
   messageText: {
     fontSize: 14,
-    lineHeight: 22,
+    textAlign: 'center',
+    //lineHeight: 22,
     letterSpacing: -0.15,
+    height: 300,
   },
   button: {
-    width: 48,
+    width: '90%',
+    height: 35,
+    borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgb(246,246,246)',
+    backgroundColor: '#6347D2',
   },
   buttonText: {
     fontSize: 14,
     lineHeight: 22,
-    color: 'rgb(7, 112, 205)',
+    color: '#fff',
     fontWeight: 'bold',
   },
 });
