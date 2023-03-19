@@ -3,6 +3,7 @@ import { StyleProp, ViewStyle } from 'react-native';
 
 export interface CoachmarkProps {
   message?: string;
+  buttonText?: string;
   autoShow?: boolean;
   onHide?: () => void;
   onShow?: () => void;
